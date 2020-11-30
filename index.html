@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>The Effects Of...</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107991489-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107991489-1');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+</head>
+<body>
+<div id="wrapper">
+  <header id="top">
+    <h1>The Effects Of...</h1>
+ <div>
+    <nav id="navMenu">
+
+      <ul>
+        <li><a href="index.html" class="thispage">Home</a></li>
+        <li><a href="cal.html">...Sleep, Technology, Student Success</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <div id="hero">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="sukah/oprah.jpg" style=" width:990px; height: 450px;">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="sukah/nerd.jpg" style=" width:990px; height: 450px;">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="sukah/wiki.jpg" style=" width:990px; height: 450px;">
+
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 8000); // Change image every 2 seconds
+}
+</script></div>
+  <article id="main">
+    <h2>What is This?</h2>
+    <p>This page was created to give users different resources and ideas related to different topics including but not limited to brain cancer, sleep deprivation, tecnology, and student success.</p>
+  </article>
+</div>
+</div>
+<aside id="sidebar">
+<h2>Quick Links</h2> 
+<p>Here are a few links to most recently published articles:</p>
+<ol>
+	<li>KIO Louisville “Drew Corson” Memorial Basketball Tournament and BBG Sisterhood Weekend </li>
+	<li>An Exclusive Pre-Screening of The Movie “Justice League”</li>
+	<li>cyclebar fundraiser </li>
+	<li>AZAA Basketball Weekend at Indiana University</li>
+</ol>
+ </aside>
+
+<footer>
+<p><p>&copy; 2020 The Effects Of... by Jordan Herman<p></p></p></p>
+</footer>
+</body>
+</html>

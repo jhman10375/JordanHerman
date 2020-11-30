@@ -1,0 +1,29 @@
+.slide{
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.slide-on{
+  position: relative;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.image{
+  height: 500px;
+  width: 500px;
+}
+
+.slides{
+  list-style-type: none;
+  margin: 0px;
+}
+
+#c2{
+  marginLeft: 500px;
+}
+
+#btn-1{
+  margin: 10px;
+}

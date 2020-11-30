@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000000;
+	background-color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#wrapper {
+	background-color: #FFFFFF;
+	width: 100%;
+	min-width: 740px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+article, aside, figure, footer, header, nav {
+	display: block;
+}
+hero {
+	max-width: 100%;
+}
+#hero {
+	clear: left;
+	border-radius: 10px;
+	color: #000000;
+	width: 100%;
+	max-width: 1000;
+	min-width: 740;
+}
+#hero article {
+	width: 40%;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	background-color: #D49227;
+	right: 40px;
+	top: 40px;
+}
+.pip{
+	width: 200px;
+	height: 300px;
+
+}
+.sup {
+	width: 464px;
+	height: 250px;
+}
+img{
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+}
+
+
+h1 {
+	font-size: 72px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#main {
+	width: 50%;
+	float: left;
+	margin-right: 2%;
+
+}
+#sidebar {
+	width: 473px;
+	float: left;
+	margin-left: 4px;
+}
+footer {
+	clear: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2%;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.thispage{
+	text-decoration: none;
+	background-color: #000000;
+}
+#a.thispage {
+	background-color:fuchsia;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+	text-decoration: none;
+	background-color: #000000;
+}
+#mainnav ul {
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#mainnav a {
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+ #navMenu {
+    margin:0;
+    width:auto;
+ }
+
+  #navMenu ul {
+    margin:0;
+    padding:0;
+    line-height:30px;
+ }
+
+  #navMenu li {
+	margin: 0;
+	padding: 10;
+	list-style: none;
+	float: left;
+	position: relative;
+	background: #FF00FF;
+}
+
+  #navMenu ul li a {
+	text-align: center;
+	height: 30px;
+	width: 492.5px;
+	display: block;
+	color: #000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	margin-left: 1px;
+	position: static;
+	left: auto;
+	top: 10px;
+}
+
+  #navMenu ul ul {
+    position:absolute;
+    visibility:hidden;
+    top:32px;
+ }
+
+  #navMenu ul li:hover ul {
+    visibility:visible;
+    z-index:9999; 
+ }
+
+  /**********************************************/
+
+  /*sets top level hover color*/
+
+  #navMenu li:hover {
+	background: #000000;
+}
+
+  /*sets link items hover color and background*/
+
+  #navMenu ul li:hover ul li a:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+  /* Changes text color on hover for main menu hover*/
+
+  #navMenu a:hover {
+	color: #FFFFFF;
+} 
+  
+ /* Contains the Float */
+
+ .cf {
+    clear:right; 
+    margin:0;
+    padding:0;
+ }
+
+ /* IE7 Display Fix */  
+ 
+ #navmenu ul li {
+
+  display: inline;     
+ 
+ } 
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.floatleft {
+	margin-right: 10px;
+	float: left;
+}
+.floatright {
+	margin-left: 10px;
+	float: right;
+}
+.even{
+	background-color:aqua;
+}
+.odd{
+	background-color:lime;
+}
+.conv{
+	background-color:yellow;
+}
+.no{
+	background-color:fuchsia;
+}
+h3, h2 {
+	text-align: center;
+}
+/*************************Slideshow**********************************************************************/
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  min-width: 740px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+table {
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;		
+}
