@@ -94,7 +94,7 @@ footer {
 }
 #mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
 	text-decoration: none;
-	background-color: #000000;
+	background-color: #cccccc;
 }
 #mainnav ul {
 	list-style-type: none;
