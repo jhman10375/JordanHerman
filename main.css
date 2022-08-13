@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	color: #f2f2f2;
+	color: #ffffff;
 	background-color: #8000ff;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -23,7 +23,7 @@ hero {
 #hero {
 	clear: left;
 	border-radius: 10px;
-	color: #f2f2f2;
+	color: #ffffff;
 	width: 100%;
 	max-width: 1000;
 	min-width: 740;
@@ -47,9 +47,9 @@ hero {
 	height: 250px;
 }
 img{
-	border-style: solid;
-	border-color: black;
-	border-width: 3px;
+/* 	border-style: solid; */
+/* 	border-color: black; */
+/* 	border-width: 3px; */
 }
 
 
@@ -87,7 +87,7 @@ footer {
 }
 .thispage{
 	text-decoration: none;
-	background-color: #000000;
+	background-color: #cccccc;
 }
 #a.thispage {
 	background-color:fuchsia;
