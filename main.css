@@ -14,6 +14,13 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+artcle, aside {
+	border-style: solid !important;
+	border-width: 1px !important; 
+	border-color: #ffffff !important;
+}
+
 article, aside, figure, footer, header, nav {
 	display: block;
 }
@@ -30,9 +37,6 @@ hero {
 }
 #hero article {
 	width: 40%;
-	border-style: solid !important;
-	border-width: 1px !important; 
-	border-color: #ffffff !important;
 	padding-left: 10px;
 	padding-right: 10px;
 	position: absolute;
