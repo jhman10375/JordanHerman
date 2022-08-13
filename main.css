@@ -131,7 +131,7 @@ footer {
 	list-style: none;
 	float: left;
 	position: relative;
-	background: #FF00FF;
+	background: ##808080;
 }
 
   #navMenu ul li a {
@@ -232,8 +232,7 @@ body {font-family: Verdana,sans-serif;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  min-width: 740px;
+  width: 100%;
   position: relative;
   margin: auto;
 }
