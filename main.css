@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	color: #000000;
+	color: #cccccc;
 	background-color: #8000ff;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -23,7 +23,7 @@ hero {
 #hero {
 	clear: left;
 	border-radius: 10px;
-	color: #000000;
+	color: #cccccc;
 	width: 100%;
 	max-width: 1000;
 	min-width: 740;
