@@ -131,7 +131,7 @@ footer {
 	list-style: none;
 	float: left;
 	position: relative;
-	background: ##808080;
+	background: #808080;
 }
 
   #navMenu ul li a {
@@ -165,20 +165,20 @@ footer {
   /*sets top level hover color*/
 
   #navMenu li:hover {
-	background: #000000;
+	background: #808080;
 }
 
   /*sets link items hover color and background*/
 
   #navMenu ul li:hover ul li a:hover {
-	color: #FFFFFF;
-	background-color: #000000;
+	color: #cccccc;
+	background-color: #808080;
 }
 
   /* Changes text color on hover for main menu hover*/
 
   #navMenu a:hover {
-	color: #FFFFFF;
+	color: #cccccc;
 } 
   
  /* Contains the Float */
