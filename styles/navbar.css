@@ -39,7 +39,7 @@
     list-style:none;
     float:left;
     position:relative;
-    background:#999;
+/*     background:#999; */
  }
 
   #navMenu ul li a {
@@ -75,7 +75,7 @@
   /*sets top level hover color*/
 
   #navMenu li:hover {
-   background:#09F;
+/*    background:#09F; */
  }
 
   /*sets link items hover color and background*/
