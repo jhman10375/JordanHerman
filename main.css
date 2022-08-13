@@ -95,6 +95,7 @@ footer {
 #mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
 	text-decoration: none;
 	background-color: #cccccc;
+	color: #ffffff;
 }
 #mainnav ul {
 	list-style-type: none;
@@ -171,7 +172,7 @@ footer {
   /*sets link items hover color and background*/
 
   #navMenu ul li:hover ul li a:hover {
-	color: #cccccc;
+	color: #ffffff;
 	background-color: #808080;
 }
 
