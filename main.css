@@ -16,7 +16,7 @@ body {
 	margin-right: auto;
 }
 
-article, aside, li {
+article, aside, {
 	border-style: solid !important;
 	border-width: 1px !important; 
 	border-color: #ffffff !important;
@@ -233,6 +233,12 @@ footer {
 }
 h3, h2 {
 	text-align: center;
+}
+
+.navBox {
+	border-style: solid !important;
+	border-width: 2px !important; 
+	border-color: #ffffff !important;
 }
 /*************************Slideshow**********************************************************************/
 
