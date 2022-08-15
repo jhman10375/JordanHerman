@@ -71,15 +71,15 @@ h1 {
 	margin-left: 0px;
 }
 #main {
-	width: 50%;
+	width: 45%;
 	float: left;
 	margin-right: 2%;
 
 }
 #sidebar {
-	width: 473px;
+	width: 31.5vw;
 	float: left;
-	margin-left: 4px;
+/* 	margin-left: 5%; */
 }
 footer {
 	clear: left;
