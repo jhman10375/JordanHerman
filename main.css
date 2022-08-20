@@ -126,7 +126,7 @@ footer {
 }
  #navMenu {
     margin:0;
-    width:25%;
+    width:100%;
  }
 
   #navMenu ul {
@@ -147,8 +147,8 @@ footer {
   #navMenu ul li a {
 	text-align: center;
 	height: 30px;
-	width: 25%;
-	display: block;
+	width: 20%;
+/* 	display: block; */
 	color: #000;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
