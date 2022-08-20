@@ -126,7 +126,7 @@ footer {
 }
  #navMenu {
     margin:0;
-    width:100%;
+    width:60vw;
  }
 
   #navMenu ul {
@@ -146,7 +146,7 @@ footer {
 
   #navMenu ul li a {
 	text-align: center;
-	height: 30px;
+	height: 5vh;
 	width: 25vw;
 	display: block;
 	color: #000;
