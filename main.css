@@ -9,9 +9,9 @@ body {
 }
 #wrapper {
 	background-color: #8000ff;
-	width: 100%;
-	min-width: 740px;
-	max-width: 1000px;
+	width: 60%%;
+	min-width: 20%;
+	max-width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 }
