@@ -9,7 +9,7 @@ body {
 }
 #wrapper {
 	background-color: #8000ff;
-	width: 60%%;
+	width: 60%;
 	min-width: 20%;
 	max-width: 60%;
 	margin-left: auto;
@@ -54,7 +54,7 @@ hero {
 	width: 464px;
 	height: 250px;
 }
-img{
+img {
 /* 	border-style: solid; */
 /* 	border-color: black; */
 /* 	border-width: 3px; */
@@ -141,7 +141,7 @@ footer {
 	list-style: none;
 	float: left;
 	position: relative;
-	background: ##808080;
+	background: #808080;
 }
 
   #navMenu ul li a {
