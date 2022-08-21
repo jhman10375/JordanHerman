@@ -71,15 +71,15 @@ h1 {
 	margin-left: 0px;
 }
 #main {
-	width: 45%;
+	width: 36vw;
 	float: left;
-	margin-right: 2%;
+	margin-right: 1.5vw;
 
 }
 #sidebar {
     width: 36vw;
     float: left;
-    margin-left: 1vw;
+    margin-left: 1.5vw;
 }
 footer {
 	clear: left;
