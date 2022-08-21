@@ -96,7 +96,7 @@ footer {
 	height: 5vh;
 	max-height: 40px;
 	color: #FFFFFF;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 .thispage{
 	text-decoration: none;
