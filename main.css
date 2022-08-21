@@ -9,9 +9,9 @@ body {
 }
 #wrapper {
 	background-color: #8000ff;
-	width: 60%;
+	width: 75%;
 	min-width: 20%;
-	max-width: 60%;
+	max-width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -90,7 +90,7 @@ footer {
 	background-color: #000000;
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
+	width: 75%;
 	color: #FFFFFF;
 	font-weight: bold;
 }
@@ -148,7 +148,7 @@ footer {
 	text-align: center;
 	height: 30px;
 	min-width: 200px;
-	width: 60vw;
+	width: 37.5vw;
 	/* max-width: 490.5px; */
 	display: block;
 	color: #000;
