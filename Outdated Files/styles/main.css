@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000000;
+	background-color: #C0C0C0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#wrapper {
+	background-color: #FFFFFF;
+	width: 100%;
+	min-width: 740px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+article, aside, figure, footer, header, nav {
+	display: block;
+}
+hero {
+	max-width: 100%;
+}
+#hero {
+	clear: left;
+	border-radius: 10px;
+	color: #000000;
+	width: 100%;
+}
+#hero article {
+	width: 40%;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	background-color: #D49227;
+	right: 40px;
+	top: 40px;
+}
+
+
+
+h1 {
+	font-size: 72px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#main {
+	width: 54%;
+	float: left;
+	margin-right: 2%;
+
+}
+#sidebar {
+	width: 436px;
+	float: left;
+	margin-left: 4px;
+}
+footer {
+	clear: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2%;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 740px;
+	max-width: 962.5px;
+	width: 100%;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+figure {
+	width: 420px;
+}
+figure img {
+	padding: 10px;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 1px 1px 15px #999999;
+	box-shadow: 1px 1px 15px #999999;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	color: #F800FF;
+}
+a:visited {
+	color: #993C9F;
+}
+a:hover, a:active, a:focus {
+	color: #5E0A60;
+	text-decoration: underline;
+}
+
+
+
+figcaption {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+#mainnav ul {
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#mainnav a {
+	width: 50%;
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 15px;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+	text-decoration: none;
+	background-color: #E800FF;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.floatleft {
+	margin-right: 10px;
+	float: left;
+}
+.floatright {
+	margin-left: 10px;
+	float: right;
+}
