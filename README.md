@@ -14,4 +14,4 @@
 # I have used W3 Schools as a main resource for new ideas
 # and components.
 # I am using GitHub as my main repository
-# This site uses Google Analytics to monitor views
+This site uses Google Analytics to monitor views
