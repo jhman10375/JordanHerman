@@ -243,6 +243,11 @@ h3, h2 {
 	color: #ffffff !important;
 }
 
+p {
+	padding-left: 5px;
+	padding-right: 5px;;
+}
+
 .navBox {
 	border-style: solid !important;
 	border-width: 2px !important; 
